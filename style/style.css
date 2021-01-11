@@ -36,7 +36,7 @@ a:hover, a:active, a:focus {
 
 #header:before {
   content: "";
-  background: rgb(83 106 160 / 65%);
+  background: rgb(31 65 146 / 65%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -51,6 +51,45 @@ a:hover, a:active, a:focus {
 #nav {
     height: 55px;
     /* min-height: 10vh; */
+}
+
+.navbar .li-bag{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.navbar{
+    background: white;
+}
+
+.navbar-b.navbar-trans .nav-link, .navbar-b.navbar-reduce .nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.nav-link {
+    display: block;
+}
+
+.navbar-brand img{
+    width: 145px;
+}
+
+.navbar-b.navbar-reduce .navbar-toggler span {
+    background-color: #1B1B1B;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: var(--dark);
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
 }
 
 .logo img {
@@ -509,4 +548,11 @@ div#intro {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 340px;
+    margin: 1.75rem auto;
+}
 }
