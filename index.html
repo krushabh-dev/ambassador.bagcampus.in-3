@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" />
+    
+    <!-- owlcarousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+
+    <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous" /
+    
+    <!-- -->
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+<section id="nav">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><div class="logo"><img src="img/logo-white.png" alt="logo"></div></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+<section id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="intro">
+                    <div class="intro-container wow fadeIn top-50" style="visibility: visible; animation-name: fadeIn;">
+                        <h1 class="mb-4 pb-0">Become A<br><span>Bagcampus</span><br> SDE Intern</h1>
+                        <p class="mb-4 pb-0">Release Date Will Publish Soon</p>
+                        <a href="" class="venobox play-btn mb-4 vbox-item"
+                            data-vbtype="video" data-autoplay="true"></a>
+                        <a href="#about" class="about-btn scrollto">About The Internship</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSeHanFaRIwaC-K-adBC8vffdnCn5p3f__y_MHgFH4HGf6vfLQ/viewform?embedded=true"
+                    width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0" class="top-50">Loading…</iframe>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="details">
+    <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Internship Details</h2>
+                <p>Here are some of our speakers</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="details_content">
+                <div class="col-md-8">
+                    <div class="details_content">
+                        <p><span>Location</span> : Your Place<br></p>
+                        <p><span>Duration</span> : 16 Weeks<br></p>
+                        <p><span>Stipend</span> : Performance based <br> (Upto ₹60K) <br></p>
+                        <p><span>Registration Fees</span> : ₹ 0 /- <br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="why">
+    <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="container">
+            <div class="section-header">
+                <h2>why to join Internship ?</h2>
+                <p>Here are some of our speakers</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wrap">
+                <div class="w-100 wrap-contain">
+                    <div class="col-md-6">
+                        <div class="wrap-t">
+                            <div class="col-sm-6 top-50">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <!-- <h5 class="card-title">Getting Started With OOP</h5> -->
+                                        <h5 class="card-title">Placement Supportive Criteria</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100 wrap-contain">
+                    <div class="col-md-6">
+                        <div class="wrap-t">
+                            <div class="col-sm-6 top-50">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> Work From Wherever You Want</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-100 wrap-contain">
+                    <div class="col-md-6">
+                        <div class="wrap-t">
+                            <div class="col-sm-6 top-50">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Working On Real Time Projects</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-100 wrap-contain">
+                    <div class="col-md-6">
+                        <div class="wrap-t">
+                            <div class="col-sm-6 top-50">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Supportive Team Available</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-100 wrap-contain">
+                    <div class="col-md-6">
+                        <div class="wrap-t">
+                            <div class="col-sm-6 top-50">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Performance Based Stipend Upto ₹60K</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-100 wrap-contain">
+                    <div class="col-md-6">
+                        <div class="wrap-t">
+                            <div class="col-sm-6 top-50">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">₹ 0 /- <br> Registration Fees</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="process">
+    <div class="container">
+        <div class="section-header">
+            <h2>Application Process</h2>
+            <p>Here are som of our speakers</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="wrap">
+                    <div class="row">
+                        <div class="col-12 my-md-3">
+                            <div class="list-group list-group-horizontal" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action btn-outline-light active" id="Step1-list"
+                                    data-toggle="list" href="#Step1" role="tab" aria-controls="home">Step <br> I</a>
+                                <a class="list-group-item list-group-item-action btn-outline-light" id="Step2-list" data-toggle="list"
+                                    href="#Step2" role="tab" aria-controls="profile">Step <br> II</a>
+                                <a class="list-group-item list-group-item-action btn-outline-light" id="Step3-list" data-toggle="list"
+                                    href="#Step3" role="tab" aria-controls="messages">Step <br> III</a>
+                                <a class="list-group-item list-group-item-action btn-outline-light" id="Step4-list" data-toggle="list"
+                                    href="#Step4" role="tab" aria-controls="settings">Step <br> IV</a>
+                            </div>
+                        </div>
+                        <div class="col-12 my-3">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="wrap-t tab-pane fade show active" id="Step1" role="tabpanel" aria-labelledby="Step1-list">
+                                    <div class="col-sm-6 wrap-t">
+                                        <div class="top-50">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Step1</h5>
+                                                    <h6>Apply At Website</h6>
+                                                    <p>Visit Website And Fill Regestration Form. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap-t tab-pane fade" id="Step2" role="tabpanel" aria-labelledby="Step2-list">
+                                    <div class="col-sm-6 wrap-t">
+                                        <div class="top-50">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Step2</h5>
+                                                    <h6>MCQ Round I & II</h6>
+                                                    <p>There Will be Two Simple MCQ Rounds Which Show Your Knowledge. You Will Have Duration of 168 Hours (7 Days) To Solve MCQ. There Will be No Timstamp</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap-t tab-pane fade" id="Step3" role="tabpanel" aria-labelledby="Step3-list">
+                                    <div class="col-sm-6 wrap-t">
+                                        <div class="top-50">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Step3</h5>
+                                                    <h6>Programming Round</h6>
+                                                    <p>In Programming Round 25 Problems Will Be Given And You Have To Complete Any 2 of Them Within Duration of 10 Days.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap-t tab-pane fade" id="Step4" role="tabpanel" aria-labelledby="Step4-list">
+                                    <div class="wrap-t">
+                                        <div class="col-sm-6 top-50">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Step4</h5>
+                                                    <h6>Telephonic Interview</h6>
+                                                    <p>Short Telephonic Interview Will be Conducted In Final Step </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="schema">
+    <div class="container">
+        <div class="section-header">
+            <h2>Internship Schema</h2>
+            <p>Here are som of our speakers</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <ul id="schema-list">
+                
+                            <li>
+                                <a data-toggle="collapse" class="collapsed" href="#schema1" aria-expanded="false"> Week 1<i class="fa fa-minus-circle"></i></a>
+                                <div id="schema1" class="collapse" data-parent="#schema-list">
+                                    <p>first week will be introductory week. during this week students will be divided in teams and tasks will be assigned to them. </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a data-toggle="collapse" href="#schema2" class="collapsed" aria-expanded="false">Week 2<i class="fa fa-minus-circle"></i></a>
+                                <div id="schema2" class="collapse" data-parent="#schema-list">
+                                    <p>this week wil be a teaching week. during second week we will be conducting some basic structures and assigned with first task.</p>
+                                </div>
+                            </li>
+                
+                            <li>
+                                <a data-toggle="collapse" href="#schema3" class="collapsed">Week 3 - 5<i class="fa fa-minus-circle"></i></a>
+                                <div id="schema3" class="collapse" data-parent="#schema-list">
+                                    <p>from further Weeks we're going to work on some real time projects.</p>
+                                </div>
+                            </li>
+                
+                            <li>
+                                <a data-toggle="collapse" href="#schema4" class="collapsed" aria-expanded="false">Week 6<i class="fa fa-minus-circle"></i></a>
+                                <div id="schema4" class="collapse" data-parent="#schema-list">
+                                    <p>this week will be performance calculation week.</p>
+                                </div>
+                            </li>
+                
+                            <li>
+                                <a data-toggle="collapse" href="#schema5" class="collapsed">Week 7 - 11<i class="fa fa-minus-circle"></i></a>
+                                <div id="schema5" class="collapse" data-parent="#schema-list">
+                                    <p>from further Weeks we're going to work on some real time projects.</p>
+                                </div>
+                            </li>
+                
+                            <li>
+                                <a data-toggle="collapse" href="#schema6" class="collapsed">Week 12<i class="fa fa-minus-circle"></i></a>
+                                <div id="schema6" class="collapse" data-parent="#schema-list">
+                                    <p>during week 12 we'll help students regarding important projects, for example: final years projects</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a data-toggle="collapse" href="#schema8" class="collapsed">Week 13 - 15<i class="fa fa-minus-circle"></i></a>
+                                <div id="schema8" class="collapse" data-parent="#schema-list">
+                                    <p>from further Weeks we're going to work on some real time projects.</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a data-toggle="collapse" href="#schema7" class="collapsed">Week 16<i class="fa fa-minus-circle"></i></a>
+                                <div id="schema7" class="collapse" data-parent="#schema-list">
+                                    <p>this will be final week of internship. you going to get all benefits and placement opportunities.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="queries">
+    <div class="container">
+        <div class="section-header">
+            <h2>Internship Related Queries</h2>
+            <p>Here are som of our speakers</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="queries-mail">
+                <div class="wrap-t">
+                    <div class="col-sm-6 top-50">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">In Case of Any Queries Write To Us At <a href="mailto:suppourt@bagcampus.in" target="_blank">suppourt@bagcampus.in</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-md-12" id="queries-form"></div> -->
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 footer-info">
+                    <img src="img/logo-white.png" alt="logo">
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="fa fa-angle-right"></i> <a href="http://bagcampus.in" target="_blank"
+                                rel="noopener noreferrer">Home</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>
+                        <!-- A108 Adam Street <br>
+                        New York, NY 535022<br>
+                        United States <br> -->
+                        <strong>Phone:</strong> +91 9403 179 389<br>
+                        <strong>Email:</strong> admin@bagcampus.in<br>
+                    </p>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://medium.com/bagcampus" class="medium"><i class="fa fa-medium"></i></a>
+                        <a href="https://www.facebook.com/pages/category/Education-Website/Bagcampus-101950538467707/" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/@Bagcampus1" class="twitter"><i class="fa fa-twitter"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="copyright">
+            © Copyright <strong>bagcampus</strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            Powered by <a href="http://bagcampus.in" target="_blank" rel="noopener noreferrer">bagcampus</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
