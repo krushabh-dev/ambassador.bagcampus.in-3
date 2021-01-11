@@ -1,6 +1,31 @@
 a {
     color: #17a2b8;
     transition: 0.5s;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li p{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+    margin-bottom: 2px;
+}
+
+.li-bag {
+    background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+    font-size: 18px;
+    font-family: "OpenSans-Semibold";
+    color: #fff;
+    border-radius: 50px;
 }
 
 a:hover, a:active, a:focus {
@@ -335,12 +360,11 @@ div#intro {
 
 .wrap-t {
     height: 205px;
-    background: aliceblue;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .wrap-t {
     text-align: -webkit-center;
-    place-content: center;
+    /* place-content: center; */
 }
 
 /* Sections process
@@ -555,4 +579,18 @@ div#intro {
     max-width: 340px;
     margin: 1.75rem auto;
 }
+}
+
+/* */
+.spl-Notes{
+  padding-bottom: 25px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.spl-Notes li {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
 }
