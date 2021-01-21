@@ -284,8 +284,8 @@ div#intro {
   #intro p {
     font-size: 16px;
   }
-  iframe{
-    display: none;
+  .col-md-6 iframe{
+     display: none;
   }
 }
 
